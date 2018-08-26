@@ -10,3 +10,5 @@ swoole_async_readfile(__DIR__.'/1.txt', function($filename, $content) {
 });
 
 echo 'start'.PHP_EOL;
+
+$pq = new SqlPriorityQueue();
